@@ -2,7 +2,7 @@
 A recursive descent parser for the given grammar, including a lexical analyzer and a syntax analyzer. 
 
 Grammar
-<program> ::= program <progname> <compound stmt>
+<program> ::= program <progname> <compound stmt>	
 <compound stmt> ::= begin <stmt> {; <stmt>} end
 <stmt> ::= <simple stmt> | <structured stmt>
 <simple stmt> ::= <assignment stmt> | <read stmt> | <write stmt> | <comment>
